@@ -1,0 +1,257 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+/* line 106, sprite1/*.png */
+.sprite1-sprite, .sprite1-estudios, .sprite1-facebook-white, .sprite1-facebook, .sprite1-google-white, .sprite1-idiomas, .sprite1-location, .sprite1-trabajo, .sprite1-tumblr-white, .sprite1-twitter-white {
+  background: url("/images/sprite1-sa6945b540e.png") no-repeat; }
+
+/* line 60, /Users/xcontreras/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite1-estudios {
+  background-position: 0 -166px; }
+
+/* line 60, /Users/xcontreras/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite1-facebook-white {
+  background-position: 0 -243px; }
+
+/* line 60, /Users/xcontreras/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite1-facebook {
+  background-position: 0 -31px; }
+
+/* line 60, /Users/xcontreras/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite1-google-white {
+  background-position: 0 -67px; }
+
+/* line 60, /Users/xcontreras/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite1-idiomas {
+  background-position: 0 0; }
+
+/* line 60, /Users/xcontreras/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite1-location {
+  background-position: 0 -103px; }
+
+/* line 60, /Users/xcontreras/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite1-trabajo {
+  background-position: 0 -219px; }
+
+/* line 60, /Users/xcontreras/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite1-tumblr-white {
+  background-position: 0 -183px; }
+
+/* line 60, /Users/xcontreras/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite1-twitter-white {
+  background-position: 0 -130px; }
+
+/* line 6, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+.sprite1-trabajo, .sprite1-estudios {
+  width: 35px;
+  height: 25px; }
+
+/* line 10, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+.sprite1-estudios {
+  height: 17px;
+  margin: 5px 0 0 -2px; }
+
+/* line 14, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+.sprite1-idiomas {
+  height: 31px;
+  width: 36px;
+  margin: -3px 0 0 -3px; }
+
+/* line 19, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+.sprite1-location {
+  height: 27px;
+  width: 21px;
+  margin-left: 2px; }
+
+/* line 24, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+.sprite1-facebook {
+  height: 36px;
+  width: 42px;
+  margin-top: 1em; }
+
+/* line 29, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+.sprite1-facebook-white, .sprite1-google-white, .sprite1-tumblr-white, .sprite1-twitter-white {
+  height: 36px;
+  width: 36px; }
+
+/* line 33, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+html, body {
+  background: white;
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: 300; }
+
+/* line 38, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+.header {
+  background: #3a3a3a;
+  padding: 1em;
+  text-align: left;
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: 300;
+  color: white; }
+  /* line 45, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .header img {
+    display: block;
+    float: left; }
+  /* line 49, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .header span {
+    padding: 1em 0 0 0.25em;
+    display: inline-block; }
+
+/* line 54, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+.perfil {
+  height: 89px;
+  background-size: cover; }
+
+/* line 58, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+.info {
+  font-family: 'Open Sans', 'sans-serif';
+  margin-top: -65px;
+  padding: 0 8em; }
+  /* line 62, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .info img {
+    border: 5px white solid; }
+  /* line 65, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .info figure {
+    float: left; }
+  /* line 68, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .info .data {
+    margin-top: 70px;
+    font-size: 12px; }
+    /* line 71, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+    .info .data .numbers {
+      color: #ff715c;
+      font-size: 17px; }
+    /* line 75, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+    .info .data .col-md-2:nth-child(n+2) {
+      border-left: 1px solid #706f6f;
+      height: 3em; }
+    /* line 79, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+    .info .data .col-md-2:last-child {
+      padding: 1em; }
+    /* line 82, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+    .info .data .circle {
+      border-radius: 20px;
+      width: 20px;
+      height: 20px;
+      padding-top: 0.13em;
+      background: #ff725c;
+      display: inline-block;
+      color: white; }
+
+/* line 93, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+.main {
+  padding: 3em 10em; }
+  /* line 96, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .main .col-md-3 div {
+    overflow: hidden; }
+    /* line 98, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+    .main .col-md-3 div .label {
+      display: inline-block;
+      margin-top: 1em;
+      font-size: 16px;
+      font-weight: 300; }
+  /* line 105, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .main .col-md-3 .requisitos {
+    background: #706f6f;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em 0; }
+  /* line 111, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .main .col-md-3 .icon {
+    background: #f9f9f9;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, white 0%, white 50%, #e7e6e6 50%, #e7e6e6 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(50%, white), color-stop(50%, #e7e6e6), color-stop(100%, #e7e6e6));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, white 0%, white 50%, #e7e6e6 50%, #e7e6e6 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, white 0%, white 50%, #e7e6e6 50%, #e7e6e6 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, white 0%, white 50%, #e7e6e6 50%, #e7e6e6 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #e7e6e6 50%, #e7e6e6 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e7e6e6',GradientType=0 );
+    /* IE6-9 */
+    clear: both;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 12px 12px;
+    margin: 0 5px;
+    float: left; }
+  /* line 128, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .main .col-md-3 .tipo-trabajo {
+    background: #18a5bf;
+    color: white;
+    padding: 0.5em 0; }
+  /* line 133, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .main .col-md-3 .tipo-estudios {
+    background: #ff715c;
+    color: white;
+    padding: 0.5em 0; }
+  /* line 138, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .main .col-md-3 .tipo-idiomas {
+    background: #706f6f;
+    color: white;
+    padding: 0.5em 0; }
+  /* line 143, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .main .col-md-3 .explain {
+    padding: 0.5em;
+    border: 1px #e6e6e6 solid; }
+  /* line 148, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .main .col-md-9 {
+    text-align: left; }
+    /* line 150, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+    .main .col-md-9 h2 {
+      font-size: 16px;
+      font-weight: 400;
+      text-align: left;
+      clear: both; }
+    /* line 156, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+    .main .col-md-9 .dest-cont {
+      margin: 2em 0;
+      font-weight: 400; }
+      /* line 159, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+      .main .col-md-9 .dest-cont .descripcion {
+        background: white;
+        padding: 0.5em 1em;
+        margin-top: -16px;
+        display: inline-block;
+        float: left; }
+      /* line 166, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+      .main .col-md-9 .dest-cont hr {
+        display: inline-block;
+        float: right;
+        margin: 0; }
+    /* line 172, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+    .main .col-md-9 hr {
+      margin: 0.25em; }
+    /* line 175, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+    .main .col-md-9 .dest {
+      padding: 1em 0;
+      clear: both; }
+  /* line 181, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .main .col-md-12 .btn-postular {
+    color: white;
+    background: #1abad7;
+    border-bottom: 3px solid #1599b1;
+    border-radius: 0px;
+    padding: 1em 5em; }
+  /* line 188, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .main .col-md-12 span {
+    display: inline-block; }
+    /* line 190, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+    .main .col-md-12 span.pull-left {
+      margin-top: 20px;
+      margin-right: 10px; }
+
+/* line 197, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+.footer {
+  padding: 1em;
+  background: #ff715c;
+  color: white;
+  overflow: hidden; }
+  /* line 201, /Users/xcontreras/Desktop/firstjob/firstjob/FirstJob/source/stylesheets/style.scss */
+  .footer .icon {
+    display: inline-block;
+    margin: 1em 0.5em; }

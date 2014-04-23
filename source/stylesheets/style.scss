@@ -1,0 +1,206 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import "compass/utilities/sprites";
+@import "sprite1/*.png";
+@include all-sprite1-sprites;
+.sprite1-trabajo,.sprite1-estudios{
+	width: 35px;
+	height: 25px;
+}
+.sprite1-estudios{
+	height: 17px;
+	margin: 5px 0 0 -2px;
+}
+.sprite1-idiomas{
+	height: 31px;
+	width: 36px;
+	margin: -3px 0 0 -3px;
+}
+.sprite1-location{
+	height: 27px;
+	width: 21px;
+	margin-left:2px;
+}
+.sprite1-facebook{
+	height: 36px;
+	width: 42px;
+	margin-top: 1em;
+}
+.sprite1-facebook-white, .sprite1-google-white,.sprite1-tumblr-white,.sprite1-twitter-white{
+	height: 36px;
+	width: 36px;
+}
+html, body{
+	background: white;
+	font-family: 'Open Sans', 'sans-serif';
+	font-weight: 300;
+}
+.header {
+	background: #3a3a3a;
+	padding: 1em;
+	text-align: left;
+	font-family: 'Open Sans', 'sans-serif';
+	font-weight: 300;
+	color: white;
+	img {
+		display: block;
+		float:left;
+	}
+	span {
+		padding: 1em 0 0 0.25em;
+		display: inline-block;
+	}
+}
+.perfil{
+	height: 89px;
+	background-size:cover;
+}
+.info{
+	font-family: 'Open Sans', 'sans-serif';
+	margin-top: -65px;
+	padding: 0 8em;
+	img{
+		border: 5px white solid ;
+	}
+	figure{
+		float: left;
+	}
+	.data{
+		margin-top: 70px;
+		font-size: 12px;
+		.numbers{
+			color: #ff715c;
+			font-size: 17px;
+		}
+		.col-md-2:nth-child(n+2){
+			border-left: 1px solid #706f6f;
+			height: 3em;
+		}
+		.col-md-2:last-child{
+			padding: 1em;
+		}
+		.circle{
+			border-radius: 20px;
+			width: 20px;
+			height: 20px;
+			padding-top: 0.13em;
+			background: #ff725c;
+			display: inline-block;
+			color: white;
+		}
+	}
+}
+.main{
+	padding: 3em 10em;
+	.col-md-3{
+		div{
+			overflow: hidden;
+			.label{
+				display: inline-block;
+				margin-top:1em;
+				font-size: 16px;
+				font-weight: 300;
+			}
+		}
+		.requisitos{
+			background: #706f6f;
+			color: white;
+			text-transform: uppercase;
+			padding: 1em 0;
+		}
+		.icon{
+			background: #f9f9f9; /* Old browsers */
+			background: -moz-linear-gradient(top,  #ffffff 0%,#ffffff  50%, #e7e6e6 50%, #e7e6e6 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#ffffff), color-stop(50%,#e7e6e6), color-stop(100%,#e7e6e6)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff  50%,#e7e6e6 50%,#e7e6e6 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  #ffffff 0%,#ffffff  50%,#e7e6e6 50%,#e7e6e6 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  #ffffff 0%,#ffffff  50%,#e7e6e6 50%,#e7e6e6 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 50%,#e7e6e6 50%,#e7e6e6 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e7e6e6',GradientType=0 ); /* IE6-9 */
+			clear: both;
+			width: 50px;
+			height: 50px;
+			border-radius: 50px;
+			padding: 12px 12px;
+			margin: 0 5px;
+			float: left;
+		}
+		.tipo-trabajo{
+			background: #18a5bf;
+			color: white;
+			padding: 0.5em 0;
+		}
+		.tipo-estudios{
+			background: #ff715c;
+			color: white;
+			padding: 0.5em 0;
+		}
+		.tipo-idiomas{
+			background: #706f6f;
+			color: white;
+			padding: 0.5em 0;
+		}
+		.explain{
+			padding: 0.5em;
+			border: 1px #e6e6e6 solid;
+		}
+	}
+	.col-md-9{
+		text-align: left;
+		h2{
+			font-size: 16px;
+			font-weight: 400;
+			text-align: left;
+			clear: both;
+		}
+		.dest-cont{
+			margin: 2em 0;
+			font-weight: 400;
+			.descripcion{
+				background: white;
+				padding: 0.5em 1em;
+				margin-top: -16px;
+				display: inline-block;
+				float: left;
+			}
+			hr{
+				display: inline-block;
+				float: right;
+				margin: 0;
+			}
+		}
+		hr{
+			margin: 0.25em;
+		}
+		.dest{
+			padding: 1em 0;
+			clear: both;
+		}
+	}
+	.col-md-12{
+		.btn-postular{
+			color: white;
+			background: #1abad7;
+			border-bottom: 3px solid #1599b1;
+			border-radius: 0px;
+			padding: 1em 5em;
+		}
+		span{
+			display: inline-block;
+			&.pull-left{
+				margin-top: 20px;
+				margin-right: 10px;
+			}
+		}
+	}
+}
+.footer{
+	padding: 1em;
+	background: #ff715c;
+	color: white;
+	.icon{
+		display: inline-block;
+		margin: 1em 0.5em;
+	}
+	overflow: hidden;
+}
